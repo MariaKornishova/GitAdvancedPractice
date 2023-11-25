@@ -1,0 +1,42 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+## Git ignore practice ##
+/src/main/resources/application-local.properties
+.idea/
+.idea_copy/
+!.idea_copy/workspace.xml
+*.jar
+!**/module2.jar
+build
+# File module2.jar shouldn't be ignored #
+!**/module2/build/
+
+
+
